@@ -1,5 +1,5 @@
-# React-Native-Paack-Delivery
-A delivery app built with React Native, to track the location of driver and the status of delivery.
+# Paack-Delivery
+A delivery app built with React Native, to track the current status of the driver and the status of delivery.
 
 It includes the following features:
 
@@ -12,7 +12,7 @@ It includes the following features:
 
 - React Native development environment
 - Node.js
-- npm
+- XCode
 - Android Studio
 
 ## Getting started
@@ -27,20 +27,12 @@ git clone https://github.com/simran-bisht/paack.git
 cd paackclient
 npm install
 ```
-3. Configure the ANDROID_HOME environment variable:
 
-```
-export ANDROID_HOME=$HOME/Android/Sdk
-export PATH=$PATH:$ANDROID_HOME/emulator
-export PATH=$PATH:$ANDROID_HOME/tools
-export PATH=$PATH:$ANDROID_HOME/tools/bin
-export PATH=$PATH:$ANDROID_HOME/platform-tools
-```
-4. Start Metro Bundler
+3. Start Metro Bundler
 ```
 npx react-native start
 ```
-5. Start Application in new terminal:
+4. Start Application in new terminal:
 ```
 npx react-native run-android
 ```
